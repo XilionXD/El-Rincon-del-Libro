@@ -156,12 +156,14 @@ main h3{
 
 .informacion{
     display: flex;
-    width: 80vw;
+    width: 90vw;
 }
 
 .info{
     display: flex;
     padding: 2vw 5vw;
+    flex-wrap: wrap;
+    align-items: center
 }
 
 .info p{
@@ -173,6 +175,20 @@ main h3{
     padding: 15px;
     justify-content: center;
     font-weight: 1000;
+}
+
+.prices{
+    display: flex;
+}
+
+p.carro{
+    outline: 1px solid transparent;
+    text-decoration: underline;
+}
+
+p.tags{
+    width: 43vw;
+    text-align: center;
 }
 
 /************************ Footer *************************/
