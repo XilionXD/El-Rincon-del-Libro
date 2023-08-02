@@ -140,6 +140,13 @@ a{
     color: black;
 }
 
+/************************ Main ***************************/
+section img{
+    width: 20vw;
+    padding: 15px;
+}
+
+
 /************************ Footer *************************/
 .Contenedor-Footer{
     border: solid 1px black;
