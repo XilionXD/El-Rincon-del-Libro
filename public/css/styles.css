@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    border: 0px;
+    padding: 1px;
+}
+body{
+    border: solid 1px black;
+}
+/*********************** HEADER ******************/
+#header{
+     border: solid 1px black;
+     font-family: 'Roboto', sans-serif;
+     font-size: 12px;
+     padding: 10px;
+     max-width: 100%;
+}
+#imagen-LOGO{
+    width: 120px;
+    
+}
+.Contenedor-Imagen-LOGO{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.Contenedor-BarraDeBusqueda-Lupa{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+.BarraDeBusqueda-Lupa{
+    width: 88%  ;
+    height: 30px;
+    margin: auto;
+    border: solid 1px black;
+}
+.Lupa{
+    height: 30px;
+    width: 22%;
+    margin: auto;
+    border: solid 1px black;
+}
+#Icono-Notificacion{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: white;
+}
+.Contenedor-Icono-Notificacion{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+#Icono-Perfil{
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+.Contenedor-Icono-Perfil{
+    width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.Contenedor-Header-Img-barra{
+     width: 100%;
+     border: solid 1px black;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+}
+/************** LISTA-HEADER *****************/
+.Contenedor-Lista{
+    border: solid 1px black;
+}
+.Lista{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    margin: auto;
+    font-size: center;
+}
+
+#Inicio{
+    border: solid 5px black;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Biblioteca{
+    border: solid 5px black;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Perfil{
+    border: solid 5px black;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Nosotros{
+    border: solid 5px black;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#PreguntasFrecuentes{
+    border: solid 5px black;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#CarritoDeCompras{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    width: 100px;
+}
+#Icono-CarritoDeCompras{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin: auto;
+}
+/****************** Main *****************/
+.Main{
+    border: solid 1px black;
+}
+/************ CARRUSEL ***************/
+#Contenedor-Carrusel{
+    height: 400px;
+    overflow: hidden;
+}
+.Carrusel{
+    height: 100%;
+    position: relative;
+}
+.ContenidoCarrusel{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.FlechasCarrusel{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#InfoContenido-1{
+    border: solid 1px black;
+    display: flex;
+}
+.ContenedorDeImagen{
+    width: 200px;
+}
+#InfoContenido-1 img{
+    width: 100%;
+}
+#Genero{
+    width: 100%;
+    border: solid 1px black;
+}
+#Titulo{
+    width: 100%;
+    border: solid 1px black;
+}
+#Descripcion{
+    width: 100%;
+    height: 250px;
+    border: solid 1px black;
+}
+#InfoDelLibro{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+#InfoContenido-2{
+    border: solid 1px black;
+}
+#InfoContenido-2 img{
+    width: 100%;
+}
+#InfoContenido-3{
+    border: solid 1px black;
+}
+#InfoContenido-3 img{
+    width: 100%;
+}
+#InfoContenido-4{
+    border: solid 1px black;
+}
+#InfoContenido-4 img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+#ContadorPuntos{
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px transparent;
+}
+#ContadorPuntos a{
+    font-size: 1em;
+}
+
+/**************** Calificaciones *****************/
+
+#Calificaciones{
+    border: solid 1px black;
+    padding: 2px;
+    font-size: 14px;
+}
+.ContenedorDeTodasLasImagenesEnCalificaciones{
+    display: flex;
+    justify-content: space-around;
+}
+.ContenedorDeImagen-EnCalificaciones{
+    width: 25%;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ContenedorDeImagen-EnCalificaciones img{
+    width: 100%;
+    
+}
+.estrellas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/************************ Footer *************************/
+.Contenedor-Footer{
+    border: solid 1px black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Suscribirse{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+#TerminosDeUso{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+#PolitcasDePrivacidad{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+#Contactos{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+#derechos-reservados{
+    font-size: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
