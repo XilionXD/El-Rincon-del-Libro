@@ -133,124 +133,58 @@ body{
     font-size: 30px;
     margin: auto;
 }
-/****************** Main *****************/
-.Main{
-    border: solid 1px black;
-}
-/************ CARRUSEL ***************/
-#Contenedor-Carrusel{
-    height: 400px;
-    overflow: hidden;
-}
-.Carrusel{
-    height: 100%;
-    position: relative;
-}
-.ContenidoCarrusel{
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
-}
-.FlechasCarrusel{
-    position: absolute;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+/**************** Main ******************/
+.Contenedor-img-form{
     padding: 20px;
-}
-#InfoContenido-1{
-    border: solid 1px black;
+    margin: auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(182, 182, 182);
 }
-.ContenedorDeImagen{
-    width: 200px;
-}
-#InfoContenido-1 img{
+.Imagen-Formulario img{
     width: 100%;
-}
-#Genero{
-    width: 100%;
-    border: solid 1px black;
-}
-#Titulo{
-    width: 100%;
-    border: solid 1px black;
-}
-#Descripcion{
-    width: 100%;
-    height: 250px;
-    border: solid 1px black;
-}
-#InfoDelLibro{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-}
-#InfoContenido-2{
-    border: solid 1px black;
-}
-#InfoContenido-2 img{
-    width: 100%;
-}
-#InfoContenido-3{
-    border: solid 1px black;
-}
-#InfoContenido-3 img{
-    width: 100%;
-}
-#InfoContenido-4{
-    border: solid 1px black;
-}
-#InfoContenido-4 img{
-    width: 100%;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-#ContadorPuntos{
-    display: flex;
-    justify-content: space-around;
-    border: solid 1px transparent;
-}
-#ContadorPuntos a{
-    font-size: 1em;
+    background-color: rgb(182, 182, 182);
 }
 
-/**************** Calificaciones *****************/
-
-#Calificaciones{
-    border: solid 1px black;
-    padding: 2px;
-    font-size: 14px;
+.Imagen-Formulario{
+    width:55%;
 }
-.ContenedorDeTodasLasImagenesEnCalificaciones{
-    display: flex;
-    justify-content: space-around;
-}
-.ContenedorDeImagen-EnCalificaciones{
-    width: 25%;
+.Formulario{
     border: solid 1px black;
+    width: 40%;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-.ContenedorDeImagen-EnCalificaciones img{
-    width: 100%;
-    
-}
-.estrellas{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: white ;
 }
-/************************ Footer *************************/
+.Formulario input{
+    padding: 5px;
+    border:solid 1px black;
+    display: flex;
+    flex-direction: column;
+}
+#text-log-in{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+.Formulario button{
+    padding: 7px;
+    border:solid 1px black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/**************** FOOTER ************/
+
 .Contenedor-Footer{
     border: solid 1px black;
     width: 100%;

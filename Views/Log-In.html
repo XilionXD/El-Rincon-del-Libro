@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/styles-Log-In.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <title>Log in</title>
+</head>
+<body>
+    <header id="header">
+        <section class="Contenedor-Header-Img-barra">
+            <div class="Contenedor-Imagen-LOGO">
+            <img id="imagen-LOGO" src="./images/logo.jpg" alt="Logo El Rincon del Libro"></div>
+
+            <div class="Contenedor-BarraDeBusqueda-Lupa">
+            <input class="BarraDeBusqueda-Lupa" type="text" placeholder="Buscar Libros">
+            <button class="Lupa" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+
+            <div class="Contenedor-Icono-Notificacion">
+            <button id="Icono-Notificacion" type="submit"><i class="fa-regular fa-bell"></i></button></div>
+
+            <div class="Contenedor-Icono-Perfil">
+            <button id="Icono-Perfil" type="submit"><i class="fa-regular fa-user"></i></button></div>
+
+        </section>
+        <section class="Contenedor-Lista">
+            <ul class="Lista" type="none">
+                <div id="Inicio">
+                <li><a href=""></a>INICIO</li></div>
+                <div id="Biblioteca">
+                <li><a href=""></a>BIBLIOTECA</li></div>
+                <div id="Perfil">
+                <li><a href=""></a>PERFIL</li></div>
+                <div id="Nosotros">
+                <li><a href=""></a>NOSOTROS</li></div>
+                <div id="PreguntasFrecuentes">
+                <li><a href=""></a>PREGUNTAS FRECUENTES</li></div>
+                <div id="CarritoDeCompras">
+                <li id="Icono-CarritoDeCompras"><a href=""></a><i class="fa-solid fa-cart-shopping"></i></li></div>
+            </ul>
+        </section>
+
+        <main>
+            <section class="Contenedor-img-form">
+                <div class="Imagen-Formulario"><img src="/images/logo.jpg" alt="logo del Rincon Del Libro"></div>
+                <div class="Formulario"><form action="Log-In" method="POST">
+                    <p id="text-log-in">Log In</p>
+                    <p>
+                    <label for="Nombre-Usuario">Nombre De Usuario</label>
+                    <input  id="NombreUsuario-INGRESAR" type="text" name="NombreUsuario" id="Nombre-Usuario" placeholder="NombreUsuario" required pattern=".{3,}" title="El Nombre de USari@ debe contener al menos tres caracteres."></p>
+
+                    <p>
+                    <label for="password">Contraseña</label>
+                    <input id="password-INGRESA" type="password" name="password" id="password" placeholder="Contraseña" required pattern=".{6,}" title="La Contraseña debe contener al menos cuatro caracteres."></p>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                
+                
+                
+                
+                
+                
+                
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="Contenedor-Footer">
+                <div id="Suscribirse"><p>Subcribirse</p></div>
+                <div id="TerminosDeUso"><p>Terminos De Uso</p></div>
+                <div id="PolitcasDePrivacidad"><p>Politicas De Privacidad</p></div>
+                <div id="Contactos"><p>Contactos</p></div>
+            </div>
+            <h4 id="derechos-reservados">2023 El Rincon Del Libro Inc. Todos los derechos reservados</h4>
+        </footer>
+</body>
+</html>
