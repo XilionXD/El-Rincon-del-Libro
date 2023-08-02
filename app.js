@@ -13,3 +13,7 @@ app.get("/", (req, res) =>{
 app.get("/LogIn", (req, res) =>{
    res.sendfile(path.resolve(__dirname, "./views/Log-In.html"))
 })
+
+app.get("/Register", (req, res) =>{
+   res.sendfile(path.resolve(__dirname, "./views/Register.html"))
+})
