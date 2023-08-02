@@ -141,11 +141,39 @@ a{
 }
 
 /************************ Main ***************************/
-section img{
-    width: 20vw;
+
+.detalle{
     padding: 15px;
 }
 
+main img{
+    width: 20vw;
+}
+
+main h3{
+    font-size: 2vw;
+}
+
+.informacion{
+    display: flex;
+    width: 80vw;
+}
+
+.info{
+    display: flex;
+    padding: 2vw 5vw;
+}
+
+.info p{
+    outline: 1px solid black;
+    height: 4vw;
+    width: 20vw;
+    font-size: 1.2vw;
+    margin: 15px;
+    padding: 15px;
+    justify-content: center;
+    font-weight: 1000;
+}
 
 /************************ Footer *************************/
 .Contenedor-Footer{
