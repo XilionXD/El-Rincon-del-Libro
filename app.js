@@ -21,3 +21,7 @@ app.get("/Register", (req, res) =>{
 app.get("/Carrito-De-Compra", (req, res) =>{
    res.sendfile(path.resolve(__dirname, "./views/CarritoDeCompra.html"))
 })
+
+app.get("/detalle-producto", (req, res) =>{
+   res.sendFile(path.resolve(__dirname, "./views/detalle-producto.html"))
+})
