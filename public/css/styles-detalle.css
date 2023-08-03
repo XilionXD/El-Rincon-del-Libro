@@ -161,7 +161,7 @@ main h3{
 
 .info{
     display: flex;
-    padding: 2vw 5vw;
+    padding: 0vw 3vw;
     flex-wrap: wrap;
     align-items: center
 }
@@ -187,8 +187,26 @@ p.carro{
 }
 
 p.tags{
-    width: 43vw;
+    width: 42vw;
     text-align: center;
+}
+
+.bookinf{
+    display: flex;
+}
+
+.book-detail{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin-top: 10px;
+}
+
+.book-detail p{
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1vw;
 }
 
 /************************ Footer *************************/
