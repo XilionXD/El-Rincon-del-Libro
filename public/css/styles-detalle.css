@@ -181,7 +181,7 @@ main h3{
     display: flex;
 }
 
-p.carro{
+.carro{
     outline: 1px solid transparent;
     text-decoration: underline;
 }

@@ -25,3 +25,11 @@ app.get("/Carrito-De-Compra", (req, res) =>{
 app.get("/detalle-producto", (req, res) =>{
    res.sendFile(path.resolve(__dirname, "./views/detalle-producto.html"))
 })
+
+app.post('/LogIn', (req, res) => 
+    res.redirect('/')
+);
+
+app.post('/Register', (req, res) => 
+    res.redirect('/')
+);

@@ -152,7 +152,7 @@ body{
 .Imagen-Formulario{
     width:55%;
 }
-.Formulario{
+.Contenedor-Formulario{
     border: solid 1px black;
     width: 40%;
     height: 500px;
@@ -162,7 +162,7 @@ body{
     align-items: center;
     background-color: white ;
 }
-.Formulario input{
+.Contenedor-Formulario input{
     padding: 5px;
     border:solid 1px black;
     display: flex;
@@ -175,11 +175,22 @@ body{
     align-items: center;
     font-weight: 900;
 }
-.Formulario button{
+.Contenedor-Formulario button{
     padding: 7px;
     border:solid 1px black;
     display: flex;
     flex-direction: column;
+}
+#Boton-Registrarse{
+    padding: 10px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -219,3 +230,69 @@ body{
     display: flex;
     justify-content: center;
 }
+/*******
+@media (min-width: 362px){
+    ***********HEADER**********
+    #Nosotros{
+        display: none;
+    }
+    #PreguntasFrecuentes{
+        display: none;
+    }
+    #Perfil{
+        width: 100%;
+    }
+    #Biblioteca{
+        width: 100%;
+    }
+    #Inicio{
+        width: 100%;
+    }
+
+
+    **********MAIN*************
+    .Imagen-Formulario{
+        display: none;
+    }
+    .Contenedor-Formulario{
+        margin: auto;
+        width: 100%;
+    }
+    #text-log-in{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        width: 100%;
+        height: 100%;
+    }
+    #Formulario{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Contenedor-Formulario button{
+        padding: 7px;
+        border:solid 1px black;
+        display: flex;
+        flex-direction: column;
+    }
+    #Boton-Registrarse{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 100%;
+    }
+    label{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    p{
+        width: 100%;
+    }
+}*****/
