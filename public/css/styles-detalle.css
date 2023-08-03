@@ -209,6 +209,46 @@ p.tags{
     font-size: 1vw;
 }
 
+.comentario-reseña{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.reseña{
+    width: 40vw;
+    text-align: center;
+}
+
+.comentario{
+    width: 40vw;
+    text-align: center;
+}
+
+.comment1{
+    outline: 1px solid black;
+    display: flex;
+}
+
+.comment2{
+    outline: 1px solid black;
+    height: 15vh;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.review1{
+    outline: 1px solid black;
+    display: flex;
+}
+
+.review2{
+    outline: 1px solid black;
+    height: 15vh;
+    display: flex;
+    margin-bottom: 20px;
+}
+
 /************************ Footer *************************/
 .Contenedor-Footer{
     border: solid 1px black;
