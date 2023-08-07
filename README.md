@@ -35,3 +35,7 @@ https://mtlnation.com lo usamos de referencia para el encabezado y un poco del b
 https://www.cuspide.com lo usamos de referencia para el detalle del producto.
 https://playground.digitalhouse.com/login fue utilizada para el boceto del registro y del login.
 https://novelasligeras.net/ fue ultizado de referencia para el pie de pagina.
+
+
+
+Critica Constructiva
