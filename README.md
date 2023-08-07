@@ -39,3 +39,5 @@ https://novelasligeras.net/ fue ultizado de referencia para el pie de pagina.
 
 
 Critica Constructiva
+
+Para este sprint 2 nos falto comunicacion y falta de trabajo en equipo por horarios libres diferentes, nos supimos manejar repartiendo diferentes puntos para que los realize algun compañero.
