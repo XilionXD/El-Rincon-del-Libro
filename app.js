@@ -1,36 +1,27 @@
 const express = require('express');
-const path = require('path');
 const app = express();
+const homeRouter = require('./routers/inicio');
+const iniciarSesionRouter = require('./routers/IniciarSesion');
+const registrarseRouter = require('./routers/Registrarse');
+const carritodecompraRouter = require('./routers/CarritoDeCompras');
+const detalleRouter =require('./routers/detalles')
 
-app.use(express.static(path.resolve(__dirname, './public')))
+app.use(express.static('public'));
 
-app.listen(3000, () => console.log('APP corriendo en el puerto:' + 3000))
+app.set('view engine', 'ejs');
 
-app.get("/", (req, res) =>{
-   res.sendfile(path.resolve(__dirname, "./views/home.html"))
-})
+const port = 3000
 
-app.get("/LogIn", (req, res) =>{
-   res.sendfile(path.resolve(__dirname, "./views/Log-In.html"))
-})
+app.listen(port, () => console.log('APP corriendo en el puerto:' + port))
 
-app.get("/Register", (req, res) =>{
-   res.sendfile(path.resolve(__dirname, "./views/Register.html"))
-})
+app.use('/', homeRouter);
 
-app.get("/Carrito-De-Compra", (req, res) =>{
-   res.sendfile(path.resolve(__dirname, "./views/CarritoDeCompra.html"))
-})
+app.use('/iniciar-sesion', iniciarSesionRouter);
 
-app.get("/detalle-producto", (req, res) =>{
-   res.sendFile(path.resolve(__dirname, "./views/detalle-producto.html"))
-})
+app.use("/registrarse", registrarseRouter)
 
-app.post('/LogIn', (req, res) => 
-    res.redirect('/')
-);
+app.use("/carrito-de-compra", carritodecompraRouter)
 
-app.post('/Register', (req, res) => 
-    res.redirect('/')
-);
+app.use("/detalle-producto", detalleRouter)
+
   
