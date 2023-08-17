@@ -1,6 +1,6 @@
 const detalleController = {
     renderDetalle : (req, res) => {
-        res.render('detalle-productos')
+        res.render('detalle-producto')
     },
 }
 

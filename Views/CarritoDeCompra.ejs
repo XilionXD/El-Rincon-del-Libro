@@ -1,48 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
+    <%- include('./partials/head') %>
     <link rel="stylesheet" href="/css/styles-Carrito.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <title>Sprints Digital House</title>
 </head>
 <body>
-    <header id="header">
-        <section class="Contenedor-Header-Img-barra">
-            <div class="Contenedor-Imagen-LOGO">
-            <a href="/"><img id="imagen-LOGO" src="./images/logo.jpg" alt="Logo El Rincon del Libro"></a></div>
-
-            <div class="Contenedor-BarraDeBusqueda-Lupa">
-            <input class="BarraDeBusqueda-Lupa" type="text" placeholder="Buscar Libros">
-            <button class="Lupa" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></div>
-
-            <div class="Contenedor-Icono-Notificacion">
-            <button id="Icono-Notificacion" type="submit"><i class="fa-regular fa-bell"></i></button></div>
-
-            <div class="Contenedor-Icono-Perfil">
-            <button id="Icono-Perfil" type="submit"><i class="fa-regular fa-user"></i></button></div>
-
-        </section>
-        <section class="Contenedor-Lista">
-            <ul class="Lista" type="none">
-                <div id="Inicio">
-                <li><a href="">INICIO</li></div>
-                <div id="Biblioteca">
-                <li><a href="">BIBLIOTECA</li></div>
-                <div id="Perfil">
-                <li><a href="/LogIn">PERFIL</li></div>
-                <div id="Nosotros">
-                <li><a href="">NOSOTROS</li></div>
-                <div id="PreguntasFrecuentes">
-                <li><a href="">PREGUNTAS FRECUENTES</li></div>
-                <div id="CarritoDeCompras">
-                <li id="Icono-CarritoDeCompras"><a href="/Carrito-De-Compra"><i class="fa-solid fa-cart-shopping"></i></a></li></div>
-            </ul>
-        </section>
-    </header>
+    <!------ HEADER ------>
+    <%- include('./partials/header') %>
 
     <main class="main">
         <section class="Contenedor-Carro">
@@ -121,14 +85,7 @@
     </main>
 
 
-    <footer>
-        <div class="Contenedor-Footer">
-            <div id="Suscribirse"><p>Subcribirse</p></div>
-            <div id="TerminosDeUso"><p>Terminos De Uso</p></div>
-            <div id="PolitcasDePrivacidad"><p>Politicas De Privacidad</p></div>
-            <div id="Contactos"><p>Contactos</p></div>
-        </div>
-        <h4 id="derechos-reservados">2023 El Rincon Del Libro Inc. Todos los derechos reservados</h4>
-    </footer>
+    <!---- FOOTER-->
+    <%- include('./partials/footer') %>
 </body>
 </html

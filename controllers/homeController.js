@@ -1,6 +1,8 @@
+const arrLibros = require('../baseDatos/libros')
+
 const homeController = {
     renderHome : (req, res) => {
-        res.render('inicio')
+        res.render('inicio', {datos: arrLibros})
     },
 }
 

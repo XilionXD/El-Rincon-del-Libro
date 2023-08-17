@@ -4,7 +4,7 @@ const homeRouter = require('./routers/inicio');
 const iniciarSesionRouter = require('./routers/IniciarSesion');
 const registrarseRouter = require('./routers/Registrarse');
 const carritodecompraRouter = require('./routers/CarritoDeCompras');
-const detalleRouter =require('./routers/detalles')
+const detalleRouter =require('./routers/detalleProducto')
 
 app.use(express.static('public'));
 
