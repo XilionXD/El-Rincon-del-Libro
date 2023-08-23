@@ -90,13 +90,12 @@
         </div>
 
      <section>
+         <h3>Calificaciones:</h3>
         <div id="Calificaciones">
-            <h3>Calificaciones:</h3>
+            <% datos.forEach((arrLibro) => { %>
             <div class="ContenedorDeTodasLasImagenesEnCalificaciones">
-            <div class="ContenedorDeImagen-EnCalificaciones"><a href="/detalle-producto"><img src="/images/Quijote-De-La-Mancha.jpg" alt="Quijote de la Mancha"><div class="estrellas"><p>5</p><i class="fa-solid fa-star"></i></a></div></div>
-            <div class="ContenedorDeImagen-EnCalificaciones"><a href=""><img src="/images/Harry-Potter-La-Piedra-Filosofal.jpg" alt="Harry Potter la Piedra Filosofal"><div class="estrellas"><p>4.9</p><i class="fa-solid fa-star"></i></a></div></div>
-            <div class="ContenedorDeImagen-EnCalificaciones"><a href=""><img src="/images/Alicia-En-El-Pais-De-Las-Maravillas.jpg" alt="Alicia en el Pais de las Maravillas"><div class="estrellas"><p>4.8</p><i class="fa-solid fa-star"></i></a></div></div>
-            <div class="ContenedorDeImagen-EnCalificaciones"><a href=""><img src="/images/Cincuenta-Sombras-De-Grey.jpg" alt="Cincuentas Sombras de Grey"><div class="estrellas"><p>4.4</p><i class="fa-solid fa-star"></i></a></div></div>
+            <div class="ContenedorDeImagen-EnCalificaciones"><a href="/detalle-producto"><img src="/images/<%= arrLibro.img%>" alt="<%= arrLibro.titulo %>"><div class="estrellas"><p><%= arrLibro.clasificacion%></p><i class="fa-solid fa-star"></i></a></div></div></div>
+            <% }) %>
         </div>
      </section>
     </main>

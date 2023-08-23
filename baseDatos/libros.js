@@ -9,6 +9,7 @@ const libros = [
         precio: "$ 10.000",
         editorial: "PENGUIN",
         idioma: "Español",
+        clasificacion: "5"
     },
     {
         id: "2",
@@ -20,6 +21,7 @@ const libros = [
         precio: "$ 5.000",
         editorial: "SALAMANDRA",
         idioma: "Español",
+        clasificacion: "4"
     },
     {
         id: "3",
@@ -31,6 +33,7 @@ const libros = [
         precio: "$ 5.000",
         editorial: "Del Fondo",
         idioma: "Inglés",
+        clasificacion: "4"
     },
     {
         id: "4",
@@ -42,6 +45,7 @@ const libros = [
         precio: "$ 12.000",
         editorial: "Grijalbo",
         idioma: "Español",
+        clasificacion: "5"
     }
 ]
 
