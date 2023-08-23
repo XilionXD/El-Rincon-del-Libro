@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head') %>
+    <link rel="stylesheet" href="/css/styles-CrearProductos.css">
+</head>
+<body>
+    <!------ HEADER ------>
+        <%- include('./partials/header') %>
+
+        <main>
+            <form>
+                <div>
+                    <h1>Usuario Administrador</h1>
+                    <h3>Modificacion de Productos</h3>
+                </div>
+                <div>
+                    <label for="categoria"></label>
+                    <select name="categoria">
+                        <option value="">
+                            Seleccione Categoria
+                        </option>
+                        <option value "Libro">
+                            Libro
+                        </option>
+                        <option>
+                            Comic
+                        </option>
+                    </select>
+                </div>
+                <div id="Nombre del libro"></div>
+                <div>
+                    <label for="Nombre del libro">Nombre del libro: </label>
+                    <input type="text" name="Nombre del libro" id="Nombre del libro" class="input" required>
+                </div>
+                <div>
+                    <label for="cantidad">Cantidad: </label>
+                    <input type="number" name="cantidad" id="cantidad" class="input" min=1 max=100 required>
+                </div>
+                <div class="radio">
+                    <strong>Genero: </strong>
+                    <label for="comedy">Comedia</label>
+                    <input type="radio" name="gender" id="comedy" value="Comedia" checked>
+                    <label for="fear">Terror</label>
+                    <input type="radio" name="gender" id="fear" value="Terror" >
+                    <label for="ciencie-fiction">Ciencia Ficcion</label>
+                    <input type="radio" name="gender" id="ciencie-fiction" value="Ciencia-Ficcion" >
+                </div>
+                <div id="Descripcion"></div>
+                <div>
+                    <label for="Descripcion">Descripcion: </label>
+                    <input type="text" name="Descripcion" id="Descripcion" class="input" required>
+                </div>
+                <div>
+                    <label>Seleccionar una Imagen: </label>
+                    <input type="file" name="image" accept=".jpg" multiple>
+                </div>
+                <div id="Editorial"></div>
+                <div>
+                    <label for="Editorial">Editorial: </label>
+                    <input type="text" name="Editorial" id="Editorial" class="input" required>
+                </div>
+                <div id="Etiquetas"></div>
+                <div>
+                    <label for="Etiquetas">Etiquetas: </label>
+                    <input type="text" name="Etiquetas" id="Etiquetas" class="input" required>
+                </div>
+                <div id="Peso"></div>
+                <div>
+                    <label for="Peso">Peso (gramos): </label>
+                    <input type="text" name="Peso" id="Peso" class="input" required>
+                </div>
+                <div>
+                    <label for="Precio">Precio: </label>
+                    <input type="text" name="Precio" id="Precio" class="input" required>
+                </div>
+                <div id="Idioma"></div>
+                <div>
+                    <label for="Idioma">Idioma: </label>
+                    <input type="text" name="Idioma" id="Idioma" class="input" required>
+                </div>
+                <div>
+                    <button type="submit" id="send-button" name="send-button" class="buttom">Enviar</button>
+                    <button type="reset" value="Borrar" class="buttom">Borrar</button>
+                    
+                </div>
+                <div class="container"></div>
+            </form>
+
+
+        </main>
+
+        <!---- FOOTER-->
+        <%- include('./partials/footer') %>
+</body>
+</html>
