@@ -11,16 +11,16 @@
         <main>
             <section class="detalle">
                 <div class="informacion">
-                    <img src="/images/Quijote-De-La-Mancha.jpg" alt="imagen libro">
+                    <img src="/images/<%= libroLista.img %>" alt="<%= libroLista.titulo %>">
                     <div class="info">
-                        <h3 classs="titulo">Don Quijote de la Mancha</h3>
+                        <h3 classs="titulo"><%= libroLista.titulo %></h3>
                         <div class="bookinf">
-                            <p>Autor: XXXXXXXXXXXX</p>
-                            <p>Editorial: XXXXXXXXXXXX</p>
+                            <p>Autor: <%= libroLista.autor %></p>
+                            <p>Editorial: <%= libroLista.editorial %></p>
                         </div>
                         <div class="prices">
                             <div class="compra">
-                                <p>Precio: $XXXXXXXXXX</p>
+                                <p>Precio: $<%= libroLista.precio %></p>
                                 <a href="" class="carro">Agregar al carro</a>
                             </div>
                             <div class="pago">
@@ -33,7 +33,7 @@
                             <p>Número: XXXXXX</p>
                             <p>Peso: XXXXXX</p>
                             <p>Edición: XXXXXX</p>
-                            <p>Idioma: XXXXXX</p>
+                            <p>Idioma: <%= libroLista.idioma %></p>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                 </div>
             </section>
             <div>
-                <a href="ModificarProductos" ><button class="boton-modificar">Modificar Producto</button></a>
+                <a href="/biblioteca/editar/<%= libroLista.id %>" ><button class="boton-modificar">Modificar Producto</button></a>
             </div>
         </main>
 

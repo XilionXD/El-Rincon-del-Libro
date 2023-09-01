@@ -92,9 +92,10 @@
      <section>
          <h3>Calificaciones:</h3>
         <div id="Calificaciones">
-            <% datos.forEach((arrLibro) => { %>
+            <% clasificaciones.forEach((clasificacion) => { %>
             <div class="ContenedorDeTodasLasImagenesEnCalificaciones">
-            <div class="ContenedorDeImagen-EnCalificaciones"><a href="/detalle-producto"><img src="/images/<%= arrLibro.img%>" alt="<%= arrLibro.titulo %>"><div class="estrellas"><p><%= arrLibro.clasificacion%></p><i class="fa-solid fa-star"></i></a></div></div></div>
+            <div class="ContenedorDeImagen-EnCalificaciones"><a href="/biblioteca/detalle/<%= clasificacion.id %>"><img src="/images/<%= clasificacion.img%>" alt="<%= clasificacion.titulo %>"><div class="estrellas"><p><%= clasificacion
+                .clasificacion%></p><i class="fa-solid fa-star"></i></a></div></div></div>
             <% }) %>
         </div>
      </section>
