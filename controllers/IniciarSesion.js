@@ -4,7 +4,7 @@ const IniciarSesionController = {
     },
     redireccionar: (req, res) => {
         const formData = req.body; 
-        res.redirect("CreacionDeProductos")}
+        res.redirect("/")}
 }
 
 module.exports = IniciarSesionController;

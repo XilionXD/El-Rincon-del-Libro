@@ -9,6 +9,7 @@ const libros = [
         precio: "$ 10.000",
         editorial: "PENGUIN",
         idioma: "Español",
+        cantidad: "10",
         clasificacion: "5"
     },
     {
@@ -21,6 +22,7 @@ const libros = [
         precio: "$ 5.000",
         editorial: "SALAMANDRA",
         idioma: "Español",
+        cantidad: "10",
         clasificacion: "4"
     },
     {
@@ -33,6 +35,7 @@ const libros = [
         precio: "$ 5.000",
         editorial: "Del Fondo",
         idioma: "Inglés",
+        cantidad: "10",
         clasificacion: "4"
     },
     {
@@ -45,8 +48,9 @@ const libros = [
         precio: "$ 12.000",
         editorial: "Grijalbo",
         idioma: "Español",
+        cantidad: "10",
         clasificacion: "5"
-    }
+    },
 ]
 
 module.exports = libros
