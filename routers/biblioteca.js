@@ -3,7 +3,8 @@ const router = express.Router();
 const path = require('path');
 const multer = require('multer');
 
-const bibliotecaController = require('../controllers/BibliotecaController')
+const bibliotecaController = require('../controllers/BibliotecaController');
+const { route } = require('./inicio');
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -31,7 +32,10 @@ router.get('/detalle/:id', bibliotecaController.renderDetalle);
 
 /**** EDITAR ****/
 router.get('/editar/:id', bibliotecaController.rendermodificarProductos);
-router.put('/editar/:id', bibliotecaController.editando)
+router.put('/editar/:id', bibliotecaController.editando);
+
+/**** ELIMINAR ****/
+router.delete('/delete/:id', bibliotecaController.eliminar);
 
 module.exports = router;
 

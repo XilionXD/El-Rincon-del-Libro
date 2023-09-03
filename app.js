@@ -1,3 +1,4 @@
+const fs = require('fs')
 const express = require('express');
 const app = express();
 const methodOverride = require('method-override');
@@ -26,7 +27,12 @@ app.use('/biblioteca', bibliotecaRouter)
 /**** falta modularizar estos */
 app.use("/carrito-de-compra", carritodecompraRouter)
 
+app.use((req, res, next) => {
+    const error = {
+        link : req.url
+    }   
+    res.status(404).render("error404", {error : error})
+})
 
 
 
-  

@@ -57,19 +57,35 @@ const bibliotecaController = {
 
         const indexLibro = libros.indexOf(editLibro)
 
-        const nuevoLibromodificado = {
-            id: editLibro.id,
-            titulo : req.body.titulo
-        }
-
-        console.log(nuevoLibromodificado)
-
-        libros[indexLibro] = nuevoLibromodificado
+        console.log(libros[indexLibro] = {
+            id : editLibro.id,
+            titulo : req.body.titulo,
+            descripcion : req.body.descripcion,
+            genero : req.body.genero,
+            img :req.file?.filename ||  "default.png",
+            autor : req.body.autor,
+            precio : req.body.precio,
+            editorial : req.body.editorial,
+            idioma : req.body.idioma,
+            cantidad : req.body.cantidad,
+        })
 
         fs.writeFileSync(librosPath, JSON.stringify(libros));
 
 
         res.redirect('/biblioteca');
+    },
+    /**** Eliminar ****/
+    eliminar : (req, res) => {
+        const { id } = req.params;
+
+        const nuevaLista = libros.filter((libro) => libro.id !== id);
+
+        fs.writeFileSync(librosPath, JSON.stringify(nuevaLista));
+
+        const nuevoListaDeLibros = JSON.parse(fs.readFileSync(librosPath, "utf-8"));
+
+        res.render("biblioteca", {datos : nuevoListaDeLibros})
     }
 }
 

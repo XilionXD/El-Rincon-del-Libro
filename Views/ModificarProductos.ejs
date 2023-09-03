@@ -9,11 +9,11 @@
         <%- include('./partials/header') %>
 
         <main>
+            <div>
+                <h1>Usuario Administrador</h1>
+                <h3>Estar editando: <%= editar.titulo %></h3>
+            </div>
             <form action="/biblioteca/editar/<%= editar.id %>?_method=PUT" method="post" enctype="multipart/form-data">
-                    <div>
-                        <h1>Usuario Administrador</h1>
-                        <h3>Estar editando: <%= editar.titulo %></h3>
-                    </div>
                     <label for="titulo">Título:</label>
                     <input type="text" name="titulo" value="<%=editar.titulo %>" required><br>
             
