@@ -56,7 +56,7 @@
         "carrusel": true
     },
     {
-        "id": "5",  
+        "id": "5",
         "titulo": "Cien años de soledad",
         "descripcion": "Una saga familiar en Macondo que abarca varias generaciones y combina lo real y lo mágico.",
         "genero": "Realismo mágico",
@@ -67,9 +67,8 @@
         "idioma": "Español",
         "cantidad": "10"
     },
-        
     {
-        "id": "6",  
+        "id": "6",
         "titulo": "1984",
         "descripcion": "Una distopía que critica la vigilancia gubernamental y el control totalitario.",
         "genero": "Ciencia ficción",
@@ -81,7 +80,7 @@
         "cantidad": "10"
     },
     {
-        "id": "7",  
+        "id": "7",
         "titulo": "Matar a un ruiseñor",
         "descripcion": "La historia de un abogado que defiende a un hombre negro acusado de violación en el sur de Estados Unidos.",
         "genero": "Novela social",
@@ -93,7 +92,7 @@
         "cantidad": "10"
     },
     {
-        "id": "8",  
+        "id": "8",
         "titulo": "El Gran Gatsby",
         "descripcion": "Una crítica a la decadencia de la sociedad estadounidense en la década de 1920.",
         "genero": "Ficción moderna",
@@ -105,7 +104,7 @@
         "cantidad": "10"
     },
     {
-        "id": "9",  
+        "id": "9",
         "titulo": "Orgullo y prejuicio",
         "descripcion": "El romance entre Elizabeth Bennet y el Sr. Darcy en la sociedad inglesa del siglo XIX.",
         "genero": "Novela romántica",
@@ -117,7 +116,7 @@
         "cantidad": "10"
     },
     {
-        "id": "10",  
+        "id": "10",
         "titulo": "Los juegos del hambre",
         "descripcion": "En un futuro distópico, Katniss Everdeen lucha por sobrevivir en un juego mortal televisado.",
         "genero": "Ciencia ficción",
@@ -129,7 +128,7 @@
         "cantidad": "10"
     },
     {
-        "id": "11",  
+        "id": "11",
         "titulo": "El Señor de los Anillos",
         "descripcion": "La épica batalla para destruir el Anillo Único y derrotar a Sauron en la Tierra Media.",
         "genero": "Fantasía épica",
@@ -141,7 +140,7 @@
         "cantidad": "10"
     },
     {
-        "id": "12",  
+        "id": "12",
         "titulo": "Crónica de una muerte anunciada",
         "descripcion": "La historia de un asesinato en una pequeña ciudad caribeña y la inevitabilidad de la tragedia.",
         "genero": "Novela de crimen",
@@ -153,7 +152,7 @@
         "cantidad": "10"
     },
     {
-        "id": "13", 
+        "id": "13",
         "titulo": "Moby Dick",
         "descripcion": "La obsesiva búsqueda del capitán Ahab de una ballena blanca gigante, Moby Dick.",
         "genero": "Aventura",
@@ -165,7 +164,7 @@
         "cantidad": "10"
     },
     {
-        "id": "14", 
+        "id": "14",
         "titulo": "Crimen y castigo",
         "descripcion": "La historia de Raskólnikov, un estudiante que comete un asesinato y enfrenta las consecuencias morales.",
         "genero": "Novela psicológica",
@@ -177,7 +176,7 @@
         "cantidad": "10"
     },
     {
-        "id": "15", 
+        "id": "15",
         "titulo": "Ulises",
         "descripcion": "Una obra experimental que narra un día en la vida de Leopold Bloom en Dublín.",
         "genero": "Novela modernista",
@@ -189,7 +188,7 @@
         "cantidad": "10"
     },
     {
-        "id": "16", 
+        "id": "16",
         "titulo": "El nombre del viento",
         "descripcion": "La historia de Kvothe, un músico y mago legendario, contada en retrospectiva.",
         "genero": "Fantasía",
@@ -201,7 +200,7 @@
         "cantidad": "10"
     },
     {
-        "id": "17", 
+        "id": "17",
         "titulo": "El guardián entre el centeno",
         "descripcion": "La odisea de Holden Caulfield en Nueva York mientras busca sentido en el mundo.",
         "genero": "Novela de iniciación",
@@ -213,7 +212,7 @@
         "cantidad": "10"
     },
     {
-        "id": "18", 
+        "id": "18",
         "titulo": "Los pilares de la Tierra",
         "descripcion": "La construcción de una catedral en la Inglaterra medieval y las vidas de quienes la rodean.",
         "genero": "Histórica",
@@ -225,7 +224,7 @@
         "cantidad": "10"
     },
     {
-        "id": "19", 
+        "id": "19",
         "titulo": "Los hombres me explican cosas",
         "descripcion": "Un conjunto de ensayos que abordan el feminismo y las experiencias de las mujeres en la sociedad.",
         "genero": "Ensayo",
@@ -235,5 +234,17 @@
         "editorial": "Haymarket Books",
         "idioma": "Inglés",
         "cantidad": "10"
+    },
+    {
+        "id": "1693839051787",
+        "titulo": "213",
+        "descripcion": "231",
+        "genero": "231",
+        "img": "img-1693839636435.jpg",
+        "autor": "213",
+        "precio": "321",
+        "editorial": "231",
+        "idioma": "321",
+        "cantidad": "231"
     }
 ]

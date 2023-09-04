@@ -13,7 +13,7 @@
                 <h1>Usuario Administrador</h1>
                 <h3>Estar editando: <%= editar.titulo %></h3>
             </div>
-            <form action="/biblioteca/editar/<%= editar.id %>?_method=PUT" method="post" enctype="multipart/form-data">
+            <form action="/biblioteca/editar/<%= editar.id %>?_method=put" method="post" enctype="multipart/form-data">
                     <label for="titulo">Título:</label>
                     <input type="text" name="titulo" value="<%=editar.titulo %>" required><br>
             
@@ -42,6 +42,7 @@
                     <input type="number" name="cantidad" value="<%=editar.cantidad %>" required><br>
             
                     <input type="submit" value="Guardar Libro">
+            </form>
 
 
         </main>

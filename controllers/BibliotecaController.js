@@ -53,12 +53,13 @@ const bibliotecaController = {
     editando: (req, res) => {
         const { id } = req.params;
 
-        const editLibro = libros.find((libro) => libro.id === id)
+        const editando = libros.find((libro) => libro.id === id)
 
-        const indexLibro = libros.indexOf(editLibro)
+        const indexLibro = libros.indexOf(editando)
 
-        console.log(libros[indexLibro] = {
-            id : editLibro.id,
+        console.log(req.body)
+        libros[indexLibro] = {
+            id : editando.id,
             titulo : req.body.titulo,
             descripcion : req.body.descripcion,
             genero : req.body.genero,
@@ -68,7 +69,7 @@ const bibliotecaController = {
             editorial : req.body.editorial,
             idioma : req.body.idioma,
             cantidad : req.body.cantidad,
-        })
+        }
 
         fs.writeFileSync(librosPath, JSON.stringify(libros));
 
